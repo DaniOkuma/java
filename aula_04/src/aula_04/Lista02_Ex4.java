@@ -32,23 +32,23 @@ public class Lista02_Ex4 {
 			} while (idgen < 1 || idgen > 6);
 				
 			
-			//Quantas pessoas gostam de futebol
+			//pessoas backend
 			if ((idgen >= 1) && dev == 1)
 				back ++;	
 			
-			//Quantas pessoas gostam de vôlei e são maiores de 18 anos
+			//mulheres cis e trans frontend
 			if ((idgen == 1 || idgen == 4) && dev == 2)
 				mCTFront ++;	
 			
-			//Quantas pessoas gostam de basquete e são menores de 18 anos
+			//homens cis e trans mobile +40
 			if ((idgen == 2 || idgen == 5) &&  (dev == 3) && (idade > 40))
 				hCTMobM40 ++;
 			
-			//Quantas pessoas gostam de basquete e são menores de 18 anos
+			//pessoas não binárias fullstack -30
 			if ((idgen == 3) && (dev == 4) && (idade < 30))
 				nbFullMen30 ++;
 			
-			//Quantas pessoas gostam de basquete e são menores de 18 anos
+			//total pessoas
 			if (idgen <= 6)
 				total ++;
 			
