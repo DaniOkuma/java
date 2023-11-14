@@ -21,7 +21,14 @@ public class Calculadora {
 			System.out.println("Soma: = " + (numero1 + numero2));
 			System.out.println("Subtração: = " + (numero1 - numero2));
 			System.out.println("Multiplicação: = " + (numero1 * numero2));
-			System.out.println("Divisão: = " + (numero1 / numero2));
+			
+			//Condição para realizar a divisão
+			if (numero2 > 0) {
+				 System.out.println("Divisão: = " + (numero1 / numero2));
+			 }
+			else {
+				System.out.println("Não existe divisão por zero!");
+			}
 			System.out.println("Móudlo do número 1(resto da divisão): = " + (numero1%2));
 			System.out.println("Móudlo do número 2(resto da divisão): = " + (numero2%2));
 			System.out.println("Raiz quadrada do numero 1: " + (Math.sqrt(numero1)));
